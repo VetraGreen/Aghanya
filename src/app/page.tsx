@@ -13,7 +13,7 @@ export default function Home() {
       
       <div className='flex flex-col bg-[#492a28] min-h-screen'>
         <div className='p-20'>
-          <Image src="/../public/aghanya_logo.jpeg" alt='Logo' width={200} height={200} />
+          <Image src="/public/aghanya_logo.jpeg" alt='Logo' width={200} height={200} />
         </div>
         <div className='flex justify-center text-[250px]'>Aghanya</div>
         <div className='flex justify-end mr-40 text-[50px]'>Smell-of-Earth Series</div>
@@ -26,15 +26,15 @@ export default function Home() {
         <div className='pl-20 text-[80px] -translate-y-10'>Products</div>
         <div className='p-20 flex flex-row gap-16 flex-wrap'>
           <div>
-              <Image src="/../public/image1.png" alt='Product1' width={350} height={550} />
+              <Image src="/public/image1.png" alt='Product1' width={350} height={550} />
               <div className='flex justify-center text-3xl'>Vermicompost</div>
           </div>
           <div>
-              <Image src="/../public/image2.png" alt='Product2' width={330} height={550} />
+              <Image src="/public/image2.png" alt='Product2' width={330} height={550} />
               <div className='flex justify-center text-3xl mt-6'>Potting Mix</div>
           </div>
           <div>
-              <Image src="/../public/image3.png" alt='Product3' width={330} height={550} />
+              <Image src="/public/image3.png" alt='Product3' width={330} height={550} />
               <div className='flex justify-center text-3xl mt-8'>Coco Peat</div>
           </div>
           <div>

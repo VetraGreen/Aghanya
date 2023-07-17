@@ -43,8 +43,6 @@ export default function Diya() {
                                 <li> relieves headaches</li>
                                 <li> fights depression</li>
                                 <li> promotes deep sleep</li>
-
-
                             </ul>
                         </div>
                         
