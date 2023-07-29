@@ -62,6 +62,13 @@ export default function Diya() {
                         <Image src="/diya1.png" alt="feature1" width={100} height={100} />
                         <div>High aeration process cowdung fermentation process</div>
                     </div>
+                    <div className="flex flex-row">
+                        <div className="text-2xl mt-[150px] w-[250px]">Scan for more Information</div>
+                        <div className="mt-20">
+                            <Image src="/qrcode.jpeg" alt="QR Code" width={200} height={200} />
+                        </div>
+                    </div>
+                    
                 </div>
 
                 <div className="flex items-center">
@@ -69,6 +76,7 @@ export default function Diya() {
                 </div>
             
             </div>
+            
         </div>
     )
 }

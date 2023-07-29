@@ -11,23 +11,23 @@ export default function Home() {
     <div className='text-[#fff]'>
       
       
-      <div className='flex flex-col bg-[#492a28] min-h-screen'>
+      <div className='flex flex-col bg-hero bg-cover bg-center min-h-screen'>
         <div className='p-20'>
-          <Image src="/aghanya_logo.jpeg" alt='Logo' width={200} height={200} />
+          <Image src="/logo.jpeg" alt='Logo' width={200} height={200} />
         </div>
-        <div className='flex justify-center text-[250px]'>Aghanya</div>
+        <div className='flex justify-center text-[250px] font-gabriela'>Aghanya</div>
         <div className='flex justify-end mr-40 text-[50px]'>Smell-of-Earth Series</div>
       </div>
 
 
 
       <div className='bg-[#141311] min-h-screen py-10'>
-        <div className='pl-20 text-[80px]'>Our</div>
-        <div className='pl-20 text-[80px] -translate-y-10'>Products</div>
+        <div className='pl-20 text-[80px]'>OUR</div>
+        <div className='pl-20 text-[80px] -translate-y-10'>PRODUCTS</div>
         <div className='p-20 flex flex-row gap-16 flex-wrap'>
-          <div>
-              <Image src="/image1.png" alt='Product1' width={350} height={550} />
-              <div className='flex justify-center text-3xl'>Vermicompost</div>
+          <div className='-translate-y-6'>
+              <Image src="/VC.png" alt='Product1' width={350} height={550} />
+              <div className='flex justify-center -mt-6 text-3xl'>Vermicompost</div>
           </div>
           <div>
               <Image src="/image2.png" alt='Product2' width={330} height={550} />

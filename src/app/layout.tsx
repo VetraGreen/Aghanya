@@ -1,7 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Architects_Daughter  } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+// const architects_Daughter = Architects_Daughter({
+//   subsets: ['latin'],
+//   weight: '400'
+// })
 
 export const metadata = {
   title: 'Aghanya',
