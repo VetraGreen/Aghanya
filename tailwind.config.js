@@ -15,6 +15,8 @@ module.exports = {
       },
       fontFamily: {
         'gabriela': ['Gabriela'],
+        'roberto': ['Roboto Mono'],
+        'cookie': ['Cookie'],
       }
     },
   },

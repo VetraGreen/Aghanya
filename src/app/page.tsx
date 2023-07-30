@@ -15,8 +15,9 @@ export default function Home() {
         <div className='p-20'>
           <Image src="/logo.jpeg" alt='Logo' width={200} height={200} />
         </div>
-        <div className='flex justify-center text-[250px] font-gabriela'>Aghanya</div>
-        <div className='flex justify-end mr-40 text-[50px]'>Smell-of-Earth Series</div>
+        <div className='flex justify-center text-[250px] font-cookie italic '>Aghanya</div>
+        {/* <Image src="/aghanyahero.png" alt='aghanya' height={200} width={700} /> */}
+        <div className='flex justify-end mr-40 text-[50px] font-roberto'>Smell-of-Earth Series</div>
       </div>
 
 
