@@ -11,13 +11,13 @@ export default function Home() {
     <div className='text-[#fff]'>
       
       
-      <div className='flex flex-col bg-hero bg-cover bg-center min-h-screen'>
+      <div className='flex flex-col bg-hero bg-cover bg-center min-h-screen px-[100px]'>
         <div className='p-20'>
           <Image src="/logo.jpeg" alt='Logo' width={200} height={200} />
         </div>
-        <div className='flex justify-center text-[250px] font-cookie italic '>Aghanya</div>
+        <div className='flex justify-center text-[150px] font-cookie italic '>Aghanya</div>
         {/* <Image src="/aghanyahero.png" alt='aghanya' height={200} width={700} /> */}
-        <div className='flex justify-end mr-40 text-[50px] font-roberto'>Smell-of-Earth Series</div>
+        <div className='flex justify-end mr-40 text-[40px] font-roberto'>Smell-of-Earth Series</div>
       </div>
 
 
