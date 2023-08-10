@@ -11,7 +11,9 @@ export default function Home() {
     <div className='text-[#fff]'>
       <section id='top'></section>
       <div className='fixed bottom-10 right-10'>
-        <Link href="#top">Top</Link>
+        <Link href="#top">
+          <Image src="/arrow.png" alt='arrow' width={50} height={50} />
+        </Link>
       </div>
       
       <div className='flex flex-col bg-hero bg-cover bg-center min-h-screen'>
