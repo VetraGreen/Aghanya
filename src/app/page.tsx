@@ -9,7 +9,10 @@ import Diya from './components/diya'
 export default function Home() {
   return (
     <div className='text-[#fff]'>
-      
+      <section id='top'></section>
+      <div className='fixed bottom-10 right-10'>
+        <Link href="#top">Top</Link>
+      </div>
       
       <div className='flex flex-col bg-hero bg-cover bg-center min-h-screen'>
         <div className='p-20'>
