@@ -65,7 +65,7 @@ export default function Diya() {
                     <div className="flex flex-row">
                         <div className="text-2xl mt-[150px] w-[250px]">Scan for more Information</div>
                         <div className="mt-20">
-                            <Image src="/qrcode.jpeg" alt="QR Code" width={200} height={200} />
+                            <Image src="/qrcode1.jpeg" alt="QR Code" width={200} height={200} />
                         </div>
                     </div>
                     
