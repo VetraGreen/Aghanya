@@ -29,33 +29,33 @@ Soil being most basic element of our well-being, we get both food and water from
 
 
 
-      <div className='bg-[#141311] min-h-screen py-20 2xl:px-[400px] xl:px-[200px] px-[100px]'>
-        <div className='text-[80px]'>OUR</div>
-        <div className='text-[80px] -translate-y-10'>PRODUCTS</div>
-        <div className='flex flex-row gap-16 flex-wrap justify-center'>
+      <div className='bg-[#141311] py-20 2xl:px-[400px] xl:px-[200px] px-[100px]'>
+        <div className='text-[60px]'>OUR</div>
+        <div className='text-[60px] -translate-y-10'>PRODUCTS</div>
+        <div className='flex flex-row gap-16 justify-center'>
           <div className='-translate-y-6'>
             <Link href="#Vermicompost" scroll={false}>
               <Image src="/VC.png" alt='Product1' width={350} height={550} />
             </Link>
-              <div className='flex justify-center -mt-6 text-3xl'>Vermicompost</div>
+              <div className='flex justify-center xl:mt-[10px] text-3xl'>Vermicompost</div>
           </div>
           <div>
               <Link href="#Potting">
                 <Image src="/image2.png" alt='Product2' width={330} height={550} />
               </Link>
-              <div className='flex justify-center text-3xl mt-6'>Potting Mix</div>
+              <div className='flex justify-center text-3xl xl:mt-[25px] mt-[30px] text-center'>Potting Mix</div>
           </div>
           <div>
             <Link href="#Coco">
               <Image src="/image3.png" alt='Product3' width={330} height={550} />
             </Link>
-              <div className='flex justify-center text-3xl mt-8'>Coco Peat</div>
+              <div className='flex justify-center text-3xl mt-[35px] xl:mt-[30px] text-center'>Coco Peat</div>
           </div>
           <div>
               <Link href="#diya">
                 <Image src="/diya.png" alt='Product4' width={300} height={550} />
               </Link>
-              <div className='flex justify-center text-3xl mt-40'>Panchagavya Diya</div>
+              <div className='flex justify-center text-3xl mt-[50px] xl:mt-[90px] text-center'>Panchagavya Diya</div>
           </div>
         </div>
       </div>
