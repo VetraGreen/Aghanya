@@ -16,23 +16,23 @@ export default function Home() {
         </Link>
       </div>
       
-      <div className='flex flex-col bg-hero bg-cover bg-center py-10'>
-        <div className='px-20 mt-20'>
+      <div className='flex flex-col bg-hero bg-cover bg-center py-10 2xl:px-[400px] xl:px-[200px] px-[100px] '>
+        <div className=' mt-20'>
           <Image src="/logo.jpeg" alt='Logo' width={200} height={200} />
         </div>
         <div className='flex justify-center text-[170px] font-cookie italic -translate-y-10'>Aghanya</div>
         {/* <Image src="/aghanyahero.png" alt='aghanya' height={200} width={700} /> */}
-        <div className='flex justify-end mr-96 text-[40px] font-roberto -translate-y-14'>Smell-of-Earth Series</div>
-        <div className='flex justify-center px-[400px] text-justify my-20 text-[30px] font-roberto'>Our soil is drying up off its nutrients due to chemical fertilizers. Its possible to nourish and rejuvinate it. BhuPravitra is term used for cow-dung in early Indian scriptures. Bhu meaning land and Pavitra meaning pure and sacred. Cow dung nourishes, enriches and repletes our soil of its nutrients. Its healthifies the soil. 
+        <div className='flex justify-end text-[35px] font-roberto -translate-y-14'>Smell-of-Earth Series</div>
+        <div className='flex justify-center text-justify my-20 text-[25px] font-roberto'>Our soil is drying up off its nutrients due to chemical fertilizers. Its possible to nourish and rejuvinate it. BhuPravitra is term used for cow-dung in early Indian scriptures. Bhu meaning land and Pavitra meaning pure and sacred. Cow dung nourishes, enriches and repletes our soil of its nutrients. Its healthifies the soil. 
 Soil being most basic element of our well-being, we get both food and water from maati. Using Bhupavitra based products visibly enhance the quality and quantity of our produce.</div>
       </div>
 
 
 
-      <div className='bg-[#141311] min-h-screen py-10 '>
-        <div className='pl-20 text-[80px]'>OUR</div>
-        <div className='pl-20 text-[80px] -translate-y-10'>PRODUCTS</div>
-        <div className='p-20 flex flex-row gap-16 flex-wrap'>
+      <div className='bg-[#141311] min-h-screen py-20 2xl:px-[400px] xl:px-[200px] px-[100px]'>
+        <div className='text-[80px]'>OUR</div>
+        <div className='text-[80px] -translate-y-10'>PRODUCTS</div>
+        <div className='flex flex-row gap-16 flex-wrap justify-center'>
           <div className='-translate-y-6'>
             <Link href="#Vermicompost" scroll={false}>
               <Image src="/VC.png" alt='Product1' width={350} height={550} />
