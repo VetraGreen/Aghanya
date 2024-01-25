@@ -89,7 +89,7 @@ Soil being most basic element of our well-being, we get both food and water from
             <div key={id}>
               <Link href={data.link}>
                 {/* w-[300px] */}
-                <div className='flex flex-col justify-between h-[370px] bg-[#413e385c] p-6 rounded-xl border-[1px] border-neutral-600 '>
+                <div className='flex flex-col justify-between h-[370px] bg-[#413e385c] p-6 rounded-xl border-[1px]  hover:border-neutral-400 transition border-neutral-600 '>
                   <div className='flex items-center justify-center'>                    
                       <Image src={data.img} alt='Product1' width={data.w} height={data.h} className='rounded-xl items-center justify-center flex' />
                       {/* <img src={data.img} className={`h-[${data.h}px] w-[${data.w}px] rounded-xl`} /> */}
