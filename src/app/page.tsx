@@ -126,19 +126,19 @@ Soil being most basic element of our well-being, we get both food and water from
         </div> */}
         <div className='flex flex-row px-20 gap-4 flex-wrap justify-center items-center'>
           {products.map((data, id) => (
-            <Link href={data.link}>
-              <div key={id} className='flex flex-col justify-between h-[350px] w-[300px] bg-[#413e385c] p-6 rounded-xl'>
-                <div className='flex items-center justify-center'>
-                  
-                    {/* <Image src={data.img} alt='Product1' width={300} height={300} /> */}
-                    <img src={data.img} className={`h-[${data.h}px] w-[${data.w}px] rounded-xl`} />
-                  
+            <div key={id}>
+              <Link href={data.link}>
+                <div className='flex flex-col justify-between h-[350px] w-[300px] bg-[#413e385c] p-6 rounded-xl'>
+                  <div className='flex items-center justify-center'>                    
+                      {/* <Image src={data.img} alt='Product1' width={300} height={300} /> */}
+                      <img src={data.img} className={`h-[${data.h}px] w-[${data.w}px] rounded-xl`} />
+                  </div>
+                  <div className='font-roberto text-xl flex justify-center'>
+                    {data.name}
+                  </div>
                 </div>
-                <div className='font-roberto text-xl flex justify-center'>
-                  {data.name}
-                </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
            ))}
         </div>
       </div>
