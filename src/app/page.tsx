@@ -14,48 +14,48 @@ const products = [
     name: "Vermicompost",
     img: "/VC.png",
     link: "#Vermicompost",
-    h:"250",
-    w:"200",
+    h:200,
+    w:200,
   },
   {
     id:"2",
     name: "Potting Mix",
     img: "/image2.png",
     link: "#Potting",
-    h:"250",
-    w:"200",
+    h:200,
+    w:200,
   },
   {
     id:"3",
     name: "Coco Peat",
     img: "/image3.png",
     link: "#Coco",
-    h:"250",
-    w:"200",
+    h:200,
+    w:200,
   },
   {
     id:"4",
     name: "Panchagavya Diya",
     img: "/diya.png",
     link: "#diya",
-    h:"250",
-    w:"200",
+    h:200,
+    w:200,
   },
   {
     id:"5",
     name: "Dhoop Stick",
     img: "/DhoopStick.jpeg",
     link: "#dhoopstick",
-    h:"250",
-    w:"600",
+    h:300,
+    w:400,
   },
   {
     id:"6",
-    name: "⁠Biogas Project Consultancy",
+    name: "Biogas Project Consultancy",
     img: "/biogas.jpeg",
     link: "#biogas",
-    h:"250",
-    w:"600",
+    h:300,
+    w:350,
   },
 ]
 
@@ -128,10 +128,11 @@ Soil being most basic element of our well-being, we get both food and water from
           {products.map((data, id) => (
             <div key={id}>
               <Link href={data.link}>
-                <div className='flex flex-col justify-between h-[350px] w-[300px] bg-[#413e385c] p-6 rounded-xl'>
+                {/* w-[300px] */}
+                <div className='flex flex-col justify-between h-[370px] bg-[#413e385c] p-6 rounded-xl border-[1px] border-neutral-600 '>
                   <div className='flex items-center justify-center'>                    
-                      {/* <Image src={data.img} alt='Product1' width={300} height={300} /> */}
-                      <img src={data.img} className={`h-[${data.h}px] w-[${data.w}px] rounded-xl`} />
+                      <Image src={data.img} alt='Product1' width={data.w} height={data.h} className='rounded-xl items-center justify-center flex' />
+                      {/* <img src={data.img} className={`h-[${data.h}px] w-[${data.w}px] rounded-xl`} /> */}
                   </div>
                   <div className='font-roberto text-xl flex justify-center'>
                     {data.name}
