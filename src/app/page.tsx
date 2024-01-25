@@ -44,7 +44,7 @@ const products = [
   {
     id:"5",
     name: "Dhoop Stick",
-    img: "/DhoopStick.jpeg",
+    img: "/Dhoopstick.jpeg",
     link: "#dhoopstick",
     h:300,
     w:400,
