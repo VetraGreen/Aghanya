@@ -7,8 +7,8 @@ export default function BioGas() {
 
                 <div className="text-6xl">
                     Biogas Project Consultancy
-                    <div className="text-4xl w-[500px] pl-10 pt-8">
-                        Pure Desi Cowdung diya for Agnihotra
+                    <div className="text-4xl w-[700px] pl-10 pt-8">
+                        Decades of tradition and science yield exceptional biogas
                     </div>
                 </div>
                 
