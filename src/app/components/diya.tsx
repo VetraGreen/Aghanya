@@ -1,25 +1,9 @@
-// export default function Diya() {
-//     return(
-//         <div className="bg-[#492a28] min-h-screen px-20 py-20">
-//             <div className="text-6xl">   
-//                 PANCHAGAVYA DIYA
-//                 <div className="text-4xl w-[500px] pl-10 pt-16">
-//                     Pure Desi Cowdung diya for Agnihotra                
-//                 </div>
-//             </div>
-
-//             <div className="text-6xl pl-[650px]">Features</div>
-
-//         </div>
-//     )
-// }
-
 import Image from "next/image"
 
 export default function Diya() {
     return(
         <div className="bg-[#141311] p-20">
-            <div className="flex flex-row gap-8 justify-between flex-wrap gap-10">
+            <div className="flex flex-row justify-between flex-wrap gap-10">
                 
                 <div className="text-6xl flex flex-col justify-between">   
                     <div>

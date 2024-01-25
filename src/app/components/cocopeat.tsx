@@ -19,7 +19,7 @@ import Image from "next/image"
 export default function CocoPeat() {
     return(
         <div className="bg-[#492a28] p-20">
-            <div className="flex flex-row gap-8 justify-between flex-wrap gap-10">
+            <div className="flex flex-row justify-between flex-wrap gap-10">
                 
                 <div className="text-6xl flex flex-col justify-between">   
                     <div>
