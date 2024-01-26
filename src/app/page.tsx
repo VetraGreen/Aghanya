@@ -41,6 +41,10 @@ const products = [
     h:200,
     w:200,
   },
+
+]
+
+const products2 = [
   {
     id:"5",
     name: "Dhoop Stick",
@@ -84,7 +88,7 @@ Soil being most basic element of our well-being, we get both food and water from
         <div className='text-[60px]'>OUR</div>
         <div className='text-[60px] -translate-y-10'>PRODUCTS</div>
     
-        <div className='flex flex-row px-20 gap-4 flex-wrap justify-center items-center'>
+        <div className='flex flex-row px-20 gap-4 flex-wrap justify-center items-center mb-4'>
           {products.map((data, id) => (
             <div key={id}>
               <Link href={data.link}>
@@ -102,6 +106,27 @@ Soil being most basic element of our well-being, we get both food and water from
             </div>
            ))}
         </div>
+            {/* 2nd Product list */}
+        <hr className=' h-px mx-20 border-0 dark:bg-neutral-600' />
+        <div className='flex flex-row px-20 gap-4 flex-wrap justify-center items-center mt-4'>
+          {products2.map((data, id) => (
+            <div key={id}>
+              <Link href={data.link}>
+                {/* w-[300px] */}
+                <div className='flex flex-col justify-between h-[370px] bg-[#413e385c] p-6 rounded-xl border-[1px]  hover:border-neutral-400 transition border-neutral-600 '>
+                  <div className='flex items-center justify-center'>                    
+                      <Image src={data.img} alt='Product1' width={data.w} height={data.h} className='rounded-xl items-center justify-center flex' />
+                      {/* <img src={data.img} className={`h-[${data.h}px] w-[${data.w}px] rounded-xl`} /> */}
+                  </div>
+                  <div className='font-roberto text-xl flex justify-center'>
+                    {data.name}
+                  </div>
+                </div>
+              </Link>
+            </div>
+           ))}
+        </div>
+
       </div>
 
 
