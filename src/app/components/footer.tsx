@@ -1,10 +1,12 @@
 export default function Footer() {
     return(
         <div className="py-10 bg-[#492a28] px-20">
+            {/* <div className="text-6xl">GET IN TOUCH</div>
+            <div className="text-4xl translate-y-2 text-[#848484]">for Contact, Questions, Orders, Support, Feedback</div> */}
             <div className="text-6xl">GET IN TOUCH</div>
-            <div className="text-4xl translate-y-2 text-[#848484]">for Contact,Questions,Orders,Support,Feedback</div>
-            <div className="flex justify-center flex-row text-3xl mt-14 gap-40">
-                <div>
+            <div className="text-4xl translate-y-2 text-[#848484]">for Contact, Questions, Orders, Support, Feedback</div>
+            <div className="flex justify-between flex-row text-3xl mt-14 gap-6 flex-wrap">
+                <div className="">
                     OUR TEAM:
                     <div className="text-2xl pt-2 text-[#848484]">
                         <div>Shri TJ Ravindran, Bangalore</div>
