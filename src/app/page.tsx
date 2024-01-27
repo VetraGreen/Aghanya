@@ -73,7 +73,7 @@ export default function Home() {
         </Link>
       </div>
       
-      <div className='flex flex-col gap-4 bg-hero bg-cover bg-center py-10 2xl:px-[400px] xl:px-[200px] px-[100px] '>
+      <div className='flex flex-col gap-4 lg:gap-2 xl:gap-0 bg-hero bg-cover bg-center py-10 2xl:px-[400px] xl:px-[200px] px-[100px] '>
         <div className='mt-20'>
           <Image src="/logo.jpeg" alt='Logo' width="200" height="200" />
         </div>
