@@ -74,8 +74,8 @@ export default function Home() {
       </div>
       
       <div className='flex flex-col bg-hero bg-cover bg-center py-10 2xl:px-[400px] xl:px-[200px] px-[100px] '>
-        <div className=' mt-20'>
-          <Image src="/logo.jpeg" alt='Logo' width={200} height={200} />
+        <div className='mt-20'>
+          <Image src="/logo.jpeg" alt='Logo' width="200" height="200" />
         </div>
         <div className='flex justify-center text-[170px] font-cookie italic -translate-y-10'>Aghanya</div>
         {/* <Image src="/aghanyahero.png" alt='aghanya' height={200} width={700} /> */}
@@ -92,7 +92,6 @@ Soil being most basic element of our well-being, we get both food and water from
           {products.map((data, id) => (
             <div key={id}>
               <Link href={data.link}>
-                {/* w-[300px] */}
                 <div className='flex flex-col justify-between h-[370px] bg-[#413e385c] p-6 rounded-xl border-[1px]  hover:border-neutral-400 transition border-neutral-600 '>
                   <div className='flex items-center justify-center'>                    
                       <Image src={data.img} alt='Product1' width={data.w} height={data.h} className='rounded-xl items-center justify-center flex' />
@@ -107,12 +106,11 @@ Soil being most basic element of our well-being, we get both food and water from
            ))}
         </div>
             {/* 2nd Product list */}
-        <hr className=' h-px mx-20 border-0 dark:bg-neutral-600' />
+        <div className="h-px mx-20 border-0 dark:bg-neutral-600"></div>
         <div className='flex flex-row px-20 gap-4 flex-wrap justify-center items-center mt-4'>
           {products2.map((data, id) => (
             <div key={id}>
               <Link href={data.link}>
-                {/* w-[300px] */}
                 <div className='flex flex-col justify-between h-[370px] bg-[#413e385c] p-6 rounded-xl border-[1px]  hover:border-neutral-400 transition border-neutral-600 '>
                   <div className='flex items-center justify-center'>                    
                       <Image src={data.img} alt='Product1' width={data.w} height={data.h} className='rounded-xl items-center justify-center flex' />
