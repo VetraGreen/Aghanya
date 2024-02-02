@@ -73,16 +73,16 @@ export default function Home() {
         </Link>
       </div>
       
-      <div className='flex flex-col gap-4 lg:gap-2 xl:gap-0 bg-hero bg-cover bg-center py-10 2xl:px-[400px] xl:px-[200px] px-[100px] '>
-        <div className='mt-20'>
+      <div className='flex flex-col gap-4 min-h-screen justify-center lg:gap-2 xl:gap-0 bg-hero bg-cover bg-center py-6 2xl:px-[400px] xl:px-[200px] px-[100px] '>
+        <div className='mt-0'>
           <Image src="/logo.jpeg" alt='Logo' width="200" height="200" />
         </div>
-        <div className='flex justify-center text-[70px] lg:text-[100px] xl:text-[170px] font-cookie italic xl:-translate-y-10'>Aghanya</div>
-        <div className='flex justify-end lg:text-[30px] xl:text-[35px] font-roberto xl:-translate-y-14'>Smell-of-Earth Series</div>
-        <div className='flex justify-center text-justify my-20 text-[15px] lg:text-[20px] xl:text-[25px] font-roberto'>Our soil is drying up off its nutrients due to chemical fertilizers. Its possible to nourish and rejuvinate it. BhuPravitra is term used for cow-dung in early Indian scriptures. Bhu meaning land and Pavitra meaning pure and sacred. Cow dung nourishes, enriches and repletes our soil of its nutrients. Its healthifies the soil. Soil being most basic element of our well-being, we get both food and water from maati. Using Bhupavitra based products visibly enhance the quality and quantity of our produce.</div>
+        <div className='flex justify-center text-[70px] lg:text-[100px] xl:text-[140px] font-cookie italic xl:-translate-y-10'>Aghanya</div>
+        <div className='flex justify-end lg:text-[30px] xl:text-[30px] font-roberto xl:-translate-y-14'>Smell-of-Earth Series</div>
+        <div className='flex justify-center text-justify text-[15px] lg:text-[20px] xl:text-[25px] font-roberto'>Our soil is drying up off its nutrients due to chemical fertilizers. Its possible to nourish and rejuvinate it. BhuPravitra is term used for cow-dung in early Indian scriptures. Bhu meaning land and Pavitra meaning pure and sacred. Cow dung nourishes, enriches and repletes our soil of its nutrients. Its healthifies the soil. Soil being most basic element of our well-being, we get both food and water from maati. Using Bhupavitra based products visibly enhance the quality and quantity of our produce.</div>
       </div>
 
-      <div className='bg-[#141311] py-20 px-20'>
+      <div className='bg-[#d6bb63] py-20 px-20 text-black'>
         <div className='text-[60px]'>OUR</div>
         <div className='text-[60px] -translate-y-10'>PRODUCTS</div>
     
