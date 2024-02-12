@@ -86,7 +86,7 @@ export default function PottingMix() {
         </div>
         <div className="lg:col-start-1 lg:row-start-2 md:col-start-1 md:row-start-2 col-start-1 row-start-2">
             <div className="text-[1.7rem]">HOW TO USE</div>
-                <div className="text-[1.5rem] w-[500px] pl-10">
+                <div className="text-[1.5rem] pl-10">
                     <ul className="list-disc text-[1rem] leading-8">
                         <li>
                             Potting Mix is easy to use. 
