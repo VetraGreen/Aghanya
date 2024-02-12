@@ -2,12 +2,12 @@ import Image from "next/image"
 
 export default function BioGas() {
     return(
-        <div className="bg-[#141311] p-20">
-            <div className="flex flex-col justify-between gap-10">
+        <div className="bg-[#d6bb63] text-[#2b2321] py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+            <div className="flex flex-col justify-between gap-6">
 
-                <div className="text-6xl">
+                <div className="text-[2rem]">
                     Biogas Project Consultancy
-                    <div className="text-4xl w-[700px] pl-10 pt-8">
+                    <div className="text-[1.5rem] pl-10 pt-4">
                         Decades of tradition and science yield exceptional biogas
                     </div>
                 </div>

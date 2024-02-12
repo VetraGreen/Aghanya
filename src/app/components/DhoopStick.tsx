@@ -2,12 +2,12 @@ import Image from "next/image"
 
 export default function DhoopStick() {
     return(
-        <div className="bg-[#492a28] p-20">
-            <div className="flex flex-col justify-between gap-10">
+        <div className="bg-[#492a28] py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+            <div className="flex flex-col justify-between gap-6">
 
-                <div className="text-6xl">
+                <div className="text-[2rem]">
                     Dhoopstick
-                    <div className="text-4xl w-[500px] pl-10 pt-8">
+                    <div className="text-[1.5rem] pl-10 pt-4">
                         Incense sticks for gentle natural fragrance
                     </div>
                 </div>
