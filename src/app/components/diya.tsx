@@ -74,8 +74,8 @@ export default function Diya() {
                     </div>
                 </div>
 
-                <div className="grid lg:grid-cols-3 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-2 gap-4 ml-10 mt-4">
-                <div className="lg:col-start-2 lg:row-start-1 md:col-start-1 md:row-start-1 col-start-1 row-start-1">
+                <div className="md:grid lg:grid-cols-3 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 flex flex-col md:gap-4 gap-8 ml-10 mt-4">
+                <div className="lg:col-start-2 lg:row-start-1 md:col-start-1 md:row-start-1  h-auto">
                         <div className="text-[1.7rem]">Features</div>
                             <div className="flex flex-col ">
                                 <div className="flex flex-row pt-4 gap-2 items-center">
@@ -88,7 +88,7 @@ export default function Diya() {
                                 </div>
                             </div>
                 </div>
-                <div className="lg:col-start-1 lg:row-start-1 md:col-start-1 md:row-start-2 col-start-1 row-start-2 pb-6 lg:pb-0">
+                <div className="lg:col-start-1 lg:row-start-1 md:col-start-1 md:row-start-2  pb-6 lg:pb-0 h-auto">
                     <div className="text-[1.7rem]">HOW TO USE</div>
                         <div className="text-[1.5rem] pl-10">
                             <ul className="list-disc text-[1rem] leading-8">

@@ -75,7 +75,7 @@ export default function CocoPeat() {
         //     </div>
         // </div>
 
-        <div className="bg-[#492a28] pt-10 xl:pt-20 pb-0 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+        <div className="bg-[#492a28] py-10 xl:py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
 
                 <div className="flex flex-col">
                     <div className="text-[2rem]">
@@ -86,29 +86,29 @@ export default function CocoPeat() {
                     </div>
                 </div>
 
-                <div className="grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-2 gap-4 ml-10 mt-4 lg:mt-2 ">
-                <div className="lg:col-start-2 lg:row-start-1 md:col-start-1 md:row-start-1 col-start-1 row-start-1">
+                <div className="md:grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-2 flex flex-col gap-4 ml-10 mt-4 lg:mt-2 ">
+                <div className="lg:col-start-2 lg:row-start-1 md:col-start-1 md:row-start-1 ">
                         <div className="text-[1.7rem]">Features</div>
                             <div className="flex flex-col ">
                                 <div className="flex flex-row pt-4 gap-2 items-center">
                                     <Image src="/coco1.png" alt="feature1" width={50} height={50} />
                                     <div>High water holding capacity</div>
                                 </div>
-                                <div className="flex flex-row pt-4 gap-2 items-center">
+                                <div className="flex flex-row gap-2 items-center">
                                     <Image src="/coco2.png" alt="feature1" width={50} height={50} />
                                     <div>Rich Nutrient and chemical properties</div>
                                 </div>
-                                <div className="flex flex-row pt-4 gap-2 items-center">
+                                <div className="flex flex-row gap-2 items-center">
                                     <Image src="/coco3.png" alt="feature1" width={50} height={50} />
                                     <div>Fully Organic</div>
                                 </div>
-                                <div className="flex flex-row pt-4 gap-2 items-center">
+                                {/* <div className="flex flex-row gap-2 items-center">
                                    <Image className="-translate-y-2" src="/coco4.png" alt="feature1" width={50} height={50} />
                                    <div>Anti fungal</div>
-                               </div>
+                               </div> */}
                             </div>
                 </div>
-                <div className="lg:col-start-1 lg:row-start-2 md:col-start-1 md:row-start-2 col-start-1 row-start-2">
+                <div className="lg:col-start-1 lg:row-start-2 md:col-start-1 md:row-start-2 ">
                     <div className="text-[1.7rem]">HOW TO USE</div>
                         <div className="text-[1.5rem] pl-10">
                             <ul className="list-disc text-[1rem] leading-8">
