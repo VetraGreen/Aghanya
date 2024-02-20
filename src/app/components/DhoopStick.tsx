@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function DhoopStick() {
     return(
-        <div className="bg-[#492a28] py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+        <div className="bg-[#492a28] py-10 md:py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
             <div className="flex flex-col justify-between gap-6">
 
                 <div className="text-[2rem]">

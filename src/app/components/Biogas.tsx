@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function BioGas() {
     return(
-        <div className="bg-[#d6bb63] text-[#2b2321] py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+        <div className="bg-[#d6bb63] text-[#2b2321] py-10 md:py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
             <div className="flex flex-col justify-between gap-6">
 
                 <div className="text-[2rem]">
