@@ -55,7 +55,7 @@ export default function PottingMix() {
         //     </div>
         // </div>
 
-        <div className="bg-[#d6bb63] text-[#2b2321] pt-10 xl:pt-20 pb-10 xl:pb-0 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+        <div className="bg-[#d6bb63] text-[#2b2321] pt-10 xl:pt-20 pb-0 xl:pb-0 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
 
         <div className="flex flex-col">
             <div className="text-[2rem]">

@@ -75,7 +75,7 @@ export default function CocoPeat() {
         //     </div>
         // </div>
 
-        <div className="bg-[#492a28] py-10 xl:py-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
+        <div className="bg-[#492a28] pt-10 md:py-10 lg:py-0 xl:pt-20 px-[2rem] md:px-[5rem] lg:px-[5rem] xl:px-[10rem]">
 
                 <div className="flex flex-col">
                     <div className="text-[2rem]">
